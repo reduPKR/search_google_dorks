@@ -1,0 +1,115 @@
+{intitle: indexof/.git }
+site:gitlab.* intext:password intext:@gmail.com | @yahoo.com | @hotmail.com 
+intitle:"index of" "/.git/config" 
+filetype:txt site:gitlab.* "secret" OR "authtoken" 
+site:github.com intext:"unattend xmlns" AND "password" ext:xml 
+inurl:admin/reset.php -github 
+intitle:"Gitea" "This website works better with JavaScript" "sign in" " Home" "Explore"-.com 
+"public $user =" | "public $password = " | "public $secret =" | "public $db =" ext:txt | ext:log -git 
+"-----BEGIN PGP PRIVATE KEY BLOCK-----" ext:pem | ext:key | ext:txt -git 
+"keystorePass=" ext:xml | ext:txt -git -gitlab 
+jdbc:postgresql://localhost: + username + password ext:yml | ext:java -git -gitlab 
+jdbc:oracle://localhost: + username + password ext:yml | ext:java -git -gitlab
+intitle:index of .git/hooks/ Sensitive Directories 
+jdbc:mysql://localhost:3306/ + username + password ext:yml | ext:javascript -git -gitlab 
+"spring.datasource.password=" + "spring.datasource.username=" ext:properties -git -gitlab 
+inurl: /.git 
+jdbc:mysql://localhost:3306/ + username + password ext:yml | ext:java -git -gitlab 
+"CREATE ROLE" + "ENCRYPTED PASSWORD" ext:sql | ext:txt | ext:ini -git -gitlab 
+ext:cfg "g_password" | "sv_privatepassword" | "rcon_password" -git -gitlab 
+"server.cfg" ext:cfg intext:"rcon_password" -git -gitlab 
+"anaconda-ks.cfg" | "ks.cfg" ext:cfg -git -gitlab 
+GitLab ssh.log ext:log 
+"POSTGRES_PASSWORD=" ext:txt | ext:cfg | ext:env | ext:ini | ext:yml | ext:sql -git -gitlab 
+inurl::/app/kibana "Kibana" -discuss -ipaddress -git 
+"MYSQL_ROOT_PASSWORD:" ext:env OR ext:yml -git 
+inurl:.drone.yml intext:git config user.email 
+index.of:"pcap" -site:stackoverflow.com -site:github.com 
+intext:"laravel" ext:env intext:"db_password" -git
+intitle:"index of" "git-jira-log" 
+"MasterUserPassword" ext:cfg OR ext:log OR ext:txt -git 
+"/etc/shadow root:$" ext:cfg OR ext:log OR ext:txt OR ext:sql -git 
+"DBPassword" ext:cfg OR ext:log OR ext:txt OR ext:sql -git 
+"SecretAccessKey" OR "AccessKeyId" ext:txt OR ext:cfg -git 
+"-----BEGIN CERTIFICATE-----" ext:pem -git 
+intext:"Current Configuration:" ext:cfg -git 
+filetype:reg reg HKEY_CLASSES_ROOT -git 
+filetype:reg reg [HKEY_CURRENT_USERSoftware] -git 
+filetype:reg reg HKEY_USERS -git 
+intext:"TCPDFtcpdf.php on line 17778" -stackoverflow -wordpress -github 
+password console-password ext:cfg -git 
+"enable password" ext:cfg -git -cisco.com 
+intext:"SECRET_KEY" ext|py inurl:mysite -site:stackoverflow.com -site:github.com 
+inurl:"web.config" & intext:"Data Source" & "User ID" & "Password" & "connectionString" & ext:config -git 
+db_password filetype:env -site:github.com -git 
+inurl:credentials.txt -github -git -gitlab 
+"contrasena" filetype:sql -github.com 
+intext:"Please log on to use the mikrotik hotspot service" intitle:"mikrotik hotspot >login" -github -site:mikrotik.com 
+inurl:"/phpmyadmin/user_password.php" -inurl:git 
+inurl:/phpmyadmin/changelog.php -github -gitlab 
+ext:sql intext:"-- phpMyAdmin SQL Dump" -site:github.* 
+intext:"Sign in with your organizational account" login -github.com 
+filetype:git -github.com inurl:"/.git" 
+filetype:inc php -site:github.com -site:sourceforge.net 
+filetype:svn -gitlab -github inurl:"/.svn" 
+inurl:github.com intext:.ftpconfig -issues 
+intitle:settings.py intext:EMAIL_USE_TLS -git -stackoverflow 
+site:com inurl:jboss filetype:log -github.com 
+intitle:settings.py intext:EMAIL_HOST_PASSWORD -git -stackoverflow 
+username | password inurl:resources/application.properties -github.com -gitlab 
+intitle:"InfluxDB - Admin Interface" -github 
+inurl:"fhem.cfg" AND 'fhem.cfg' -github 
+configuration> + filetype:config -github.com 
+intext:"Powered by Sentora" -github.com 
+ext:ppk ssh key -github.com -gitlab 
+inurl:conf/tomcat-users.xml -github 
+inurl:"/gitweb.cgi?" 
+intitle:"index of" ".gitignore" 
+intext:APIKey ext:js | xml | yml | txt | conf | py -github -stackoverflow intitle:"index of" 
+inurl:lighttpd.conf lighttpd site:github.com
+inurl:nginx.conf nginx site:github.com
+inurl:travis.yml tornado site:github.com 
+intext:"login" department | admin | manager | company | host filetype:xls | xlsx -community -github 
+inurl:"/p3p.xml" | intitle: "p3p.xml" -github.com 
+inurl:"/tiny_mce/plugins/ajaxfilemanager/inc/data.php" | inurl:"/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php" -github 
+intext:"please change your" password |code | login file:pdf | doc | txt | docx -github 
+inurl:/dbcp.properties + filetype:properties -github.com 
+filetype:gitattributes intext:CHANGELOG.md -site:github.com 
+intext:Omeka*Username Powered.by.Omeka inurl:admin -github -omeka.org 
+inurl:/contao/main ext:php -community -github 
+inurl:composer.json codeigniter -site:github.com 
+AndroidManifest ext:xml -github -gitlab -googlesource
+intitle:"index.of" inurl:"cvs" login | passwd | password | access | pass -github -pub
+inurl:"paypal" intitle:"index of" backup | db | access -github
+inurl:"?db_backup" | inurl:"dbbackup" -site:github.com "sql.gz" | "sql.tgz" | "sql.tar" | "sql.7z" 
+inurl:fisheye AND inurl:changelog -site:atlassian.com -site:github.com -intext:"Log in to FishEye" 
+intext:"PuTTY log" ext:log "password" -supportforums -github 
+inurl:"/App.Config" + ext:config + "password=" -github -git 
+ext:txt {"wallet_address" :", "pool_address" : " ", "pool_password" -git 
+index of /node_modules/ -github -stackoverflow 
+inurl:?wp-commentsrss2.php -git 
+inurl:"/SAMLLogin/" -github 
+inurl:default.aspx?ReturnUrl=/spssmr -stackoverflow -youtube.com -github 
+filetype:config "" "password" "web.config" -stackoverflow -youtube.com -github
+"login" inurl:"account/auth" -github -gitlab -stackoverflow 
+inurl:"/Admin/Login?ReturnUrl=" -github.com -gitlab.com 
+inurl:"config.xml" "password" ext:xml -stackoverflow.com -github.com
+inurl:"ssologin/" -github.com 
+inurl:"cmd=auth?" -github -stackoverflow -gitlab 
+inurl:"/initiatesso?providerid=" -github.com 
+"Oracle peoplesoft sign in" inurl:"cmd=login?" -github -stackoverflow -gitlab 
+intitle:"private login" username -github 
+intitle:"login" | intitle:"hospital" "patient" "clinic" "admin" "medical" "login" -stackoverflow -github -youtube 
+dwsync.xml intitle:index of -gitlab -github
+intitle:"login" | intitle:"sign in" "member" "private" "admin" "club" -stackoverflow -github -youtube
+"[Tera Term]" inurl:"teraterm.ini" ext:ini -git
+"[LocalizedFileNames]" inurl:"desktop.ini" ext:ini -git -wiki
+intitle:"rutorrent v3" AND intext:Uploaded -github.com
+"enable secret" ext:cfg -git -cisco.com
+"CakeRoutingException" -site:github.com -site:stackoverflow.com -site:cakephp.org"
+inurl:composer.json filetype:json -site:github.com 
+intitle:"Django site admin" inurl:admin -site:stackoverflow.com -site:github.com 
+intext:"Index of /.git"
+filetype:php "Git Deployment Script v0.1"
+inurl:login/?next=/admin/ -https -stackoverflow.com -github.com 
+"-- Account dump" ext:sql -git

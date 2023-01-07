@@ -1,0 +1,479 @@
+filetype:reg [HKEY_USERSDEFAULT] 
+intext:"sign up" "**" filetype:php 
+intext: "admin" "subscribe" filetype:php 
+inurl:/RDWeb/Pages/en-US/ filetype:aspx ~login 
+intext:"token" filetype:log "authenticate"
+"index of" filetype:sql 
+"index of" filetype:env 
+"index of" filetype:db 
+intitle:"index of" filetype:sql 
+inurl: /wp-content/uploads/ inurl:"robots.txt" "Disallow:" filetype:txt 
+inurl:admin filetype:xls 
+inurl:admin filetype:xlsx 
+db_password filetype:env 
+inurl:admin filetype:txt 
+site:com "rfp" filetype:pdf 
+site: com intext " organisation data" filetype:xls 
+intext:"untitled" intext:"admin" filetype:php 
+intext:"sitemap" filetype:txt 
+intitle"index of" "username" "password" filetype: xlsx 
+intext:pass filetype:txt 
+intext:"untitled" intext:"password" filetype:php
+intext:"untitled" intext:"login" filetype:php
+intext:swagger filetype:log 
+filetype:conf intext:"Footer Powered By"
+filetype:log intext:("apache2" | "htdocs") 
+intitle: "access log" filetype: txt 
+allintext:password filetype:log after:2018 
+inurl:employee filetype:xls
+filetype:log "AUTHTOKEN" 
+intext:api_key filetype:log 
+intext:private_key filetype:log
+intitle:GoogleService-Info filetype:plist
+intext:Authorization: Bearer filetype:log
+phpMyAdmin -www filetype:conf site:* 
+filetype:xls intext:password 
+allintext:adhaar filetype:xlsx 
+filetype:log username admin 
+filetype:xlsx intext:"gmail.com" OR "hotmail.com"
+intitle:untitled filetype:xls intext:password 
+allintext:"*.@gmail.com" OR "password" OR "username" filetype:xlsx 
+"Cisco Systems, Inc. All Rights Reserved." -cisco.com filetype:jsp 
+filetype:axd inurl:/elmah.axd 
+filetype:log inurl:paypal 
+allintext:@gmail.com filetype:log 
+filetype:csv intext:"Secret access key" 
+filetype:log intext:password after:2015 intext:@gmail.com | @yahoo.com | @hotmail.com 
+mail/u/0 filetype:pdf 
+intitle:"index of" /var/logs filetype:'"log | txt | csv" 
+allintext:username,password filetype:log 
+intitle:"report" ("Fortify" | "Web Inspect") filetype:pdf 
+intitle:"report" ("qualys" | "acunetix" | "nessus" | "netsparker" | "nmap") filetype:html 
+allintext:password filetype:log
+inurl:member filetype:xls 
+filetype:env "DB_PASSWORD" 
+allintext:username filetype:log 
+filetype:sql intext: "sql dump" 
+inurl:www/delivery filetype:php 
+filetype:php inurl:"/general/login.php?PHPSESSID=" 
+inurl:/dana/home/ filetype:cgi 
+intext:"Please enter your new password" inurl:login filetype:php 
+"# Kickstart" filetype:cfg 
+filetype:psp intitle:"Motorola - FX9500" 
+intext:"please enter your username and password" inurl:login filetype:php
+filetype:env intext:APP_NAME 
+Navicat MySQL Data Transfer filetype:sql 
+filetype:"xls | xlsx | doc | docx | ppt | pptx | pdf" 
+inurl:/dana-na/ filetype:cgi
+intitle:index.of "admin" filetype:sql
+intitle:"index of" inurl:/*sql* filetype:log 
+"Scanned by Camscanner" filetype:pdf
+inurl:webArch/mainFrame filetype:cgi intext:"Web Image Monitor" 
+"pass" "usuario" filetype:sql 
+filetype:xls "nomina"
+intext:"aspx" filetype:txt login & password 
+MAIL_HOST filetype:env
+DB_USERNAME filetype:env 
+intext:"wordpress" filetype:xls login & password 
+filetype:php "Notice: Undefined variable: data in" -forum 
+intitle:"report" ("qualys" | "acunetix" | "nessus" | "netsparker" | "nmap") filetype:pdf 
+"keyed alike" filetype:pdf 
+inurl:login.txt filetype:txt 
+jmeter.log filetype:log 
+inurl:login.aspx filetype:aspx intext:"TMW Systems" 
+intext:"@gmail.com" AND intext:"@yahoo.com" filetype:sql 
+"passport" filetype:xls
+inurl:/php-errors.log filetype:log 
+inurl:/files/_log/ filetype:log 
+intext:reports filetype:cache 
+inurl:pipermail filetype:txt 
+filetype:cwr inurl:apstoken 
+filetype:doc "Answer Key" 
+filetype:pub "ssh-rsa" 
+intext:password "Login Info" filetype:txt 
+filetype:txt "Registration Code" 
+filetype:xml config.xml passwordHash Jenkins 
+filetype:txt "License Key" 
+filetype:rdp default.rdp 
+intext:jdbc:oracle filetype:java 
+filetype:reg reg HKEY_CURRENT_USER intext:password 
+filetype:txt line vty 0 4 
+filetype:txt $9$ JunOS 
+allintext:wp-includes/rest-api
+inurl:.com index of movies 
+intitle:index.of.etc 
+intitle:"index of" "*.php" 
+intitle:"index of" "*.phtml" 
+intitle:"index of" "*.pl" 
+intitle:"index of" "docker-compose"
+intitle:"Index of" site:.in
+intitle:"index of" "stylesheet.css" 
+intitle:"index of" "pres.xml"
+intitle:"index of" "master03.xml" 
+intext:"powered by BlueCMS v1.6"
+intitle:"index of" "/cgi-bin" "admin" 
+intitle: Index of /assets/admin/system 
+Google Dork: intitle:"index of" "/sql" "admin"
+inurl:/supportboard
+"index of /" intext:wp-config "zip" 
+intitle:"index of" "schema.sql" 
+Dork: "index of" "Production.json" 
+index.of.?.frm 
+Dork: "Index of" "upload_image.php"
+intitle:"index of" "nrpe.cfg" 
+index of admin/fckeditor/editor/filemanager/
+inurl:demo.browse.php intitle:getid3 
+-site:simplemachines.org "These are the paths and URLs to your SMF installation"
+allinurl:forcedownload.php?file= 
+ionCube Loader Wizard information disclosure
+inurl:"simplenews/admin"
+inurl:updown.php | intext:"Powered by PHP Uploader Downloader" 
+inurl:guestbook/guestbooklist.asp "Post Date" 
+intitle:"CJ Link Out V1"
+"powered by mailgust"
+"powered by my little forum" 
+intitle:"Control panel" "Control Panel Login" ArticleLive inurl:admin -demo 
+inurl:cartwiz/store/index.asp 
+"maxwebportal" inurl:"default" "snitz forums" +"homepage" -intitle:maxwebportal 
+"e107.org 2002/2003" inurl:forum_post.php?nt 
+"Mail-it Now!" intitle:"Contact form" | inurl:contact.php
+"Warning:" "Cannot execute a blank command in"
+"Powered by Xcomic"
+"Powered by FunkBoard"
+"Powered by FlexPHPNews" inurl:news | inurl:press
+"Powered By: Simplicity oF Upload" inurl:download.php | inurl:upload.php
+inurl:nquser.php filetype:php 
+PHPFreeNews inurl:Admin.php 
+"Powered by SilverNews" 
+"Powered by Gravity Board" 
+filetype:mdb "standard jet" (password | username | user | pass) 
+intitle:"PHPstat" intext:"Browser" intext:"PHPstat setup" 
+intitle:"SSHVnc Applet"OR intitle:"SSHTerm Applet" 
+inurl:cgi-bin inurl:bigate.cgi 
+filetype:pl -intext:"/usr/bin/perl" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config) 
+filetype:mdb inurl:"news/news" 
+inurl:php.exe filetype:exe -example.com
+"Powered by Land Down Under 601" 
+ext:asp "powered by DUForum" inurl:(messages|details|login|default|register) -site:duware.com
+ext:asp inurl:DUgallery intitle:"3.0" -site:dugall 
+filetype:cgi inurl:cachemgr.cgi 
+"powered by YellDL"
+inurl:click.php intext:PHPClickLog
+"File Upload Manager v1.3" "rename to" 
+intitle:"phpremoteview" filetype:php "Name, Size, Type, Modify"
+intitle:"ASP FileMan" Resend -site:iisworks.com 
+ezBOO "Administrator Panel" -cvs 
+intitle:mywebftp "Please enter your password" 
+intitle:"Directory Listing" "tree view" 
+inurl:changepassword.cgi -cvs 
+inurl:" WWWADMIN.PL" intitle:"wwwadmin" 
+inurl:cgi.asx?StoreID 
+filetype:lit lit (books|ebooks) 
+"create the Super User" "now by clicking here" 
+intitle:gallery inurl:setup "Gallery configuration" 
+inurl:"nph-proxy.cgi" "Start browsing through this CGI-based proxy" 
+inurl:"plog/register.php" 
+link:http://www.toastforums.com/ 
+inurl:robpoll.cgi filetype:cgi 
+intitle:"PHP Explorer" ext:php (inurl:phpexplorer.php | inurl:list.php | inurl:browse.php) 
+ext:cgi inurl:ubb6_test.cgi 
+filetype:wsdl wsdl 
+filetype:inc inc intext:setcookie
+filetype:cnf my.cnf -cvs -example 
+filetype:php inurl:"viewfile" -"index.php" -"idfil
+intitle:"Index of /" modified php.exe
+site:drive.google.com "*.pdf"
+intitle:"index of" "document*.pdf"
+intitle:"index of" "CD.pdf "
+intitle:"index of" "-XML.pdf " 
+"Warehouse Management System" Ext:pdf
+inurl:mil intext:"UNCLASSIFIED/FOUO" ext:pdf
+"Not for Public Release" + "Confidential" ext:pdf | ext:doc | ext:xlsx
+"USB Port 1 (Public Data)" + "USB Port 2 (Public Data)" "Status" -pdf
+intitle:"HD IP Camera" "Remember me" "User name" -.com -pdf
+intitle:"ePMP 2000" "notifications" "Menu" -pdf
+intitle:("OnCell Web Console" | "Series Web Console" | "-HSPA Series Web" | "-HSDPA Series Web") "MOXA OnCell" "Username :" "Password :" -pdf
+intitle:("WebRTU z2" | "WebRTU z1") -pdf
+ext:(doc | pdf | xls | txt |) (intext:confidential salary) inurl:confidential
+"change the Administrator Password." intitle:"HP LaserJet" -pdf
+intitle:"Vulnerability Report" "Critical" ext:pdf
+intitle:"report" ("OpenVAS" | "Nikto") ext:pdf OR ext:html
+intext:"Not to be distributed" ext:doc OR ext:pdf OR ext:xls OR ext:xlsx
+intext:"INTERNAL USE ONLY" ext:doc OR ext:pdf OR ext:xls OR ext:xlsx
+intitle:"HP ALM" "Application Lifecycle Management" inurl:/qcbin/ -ext:PDF
+-site:"pentest-tools.com" intext:"Scan coverage information" AND "List of tests" ext:PDF
+"php class JConfig" AND inurl:configuration AND ext:"bak | old | pdf | php | txt"
+type:mil inurl:ftp ext:pdf | ps
+intext:"authentication" intranet password login inurl:account ext:(doc | pdf | xls| psw | ppt | pps | xml | txt | ps | rtf | odt | sxw | xlsx | docx | mail)
+inurl:department intext:"hardware inventory" firewall router ext:(doc | pdf | xls| psw | ppt | pps | xml | txt | ps | rtf | odt | sxw )
+intext:"please find attached" "login" | password ext:pdf
+site:drive.google.com /preview intext:movie inurl:flv | wmv | mp4 -pdf -edit -view
+hardware | software "migration" intitle:index.of ext:xls | xlsx | doc | docx | pdf
+employee "training" intitle:index.of ext:doc | pdf | xls |docx |xlsx 
+intext:vmware virtual filetype:xls | xlsx | doc | pdf 
+intitle:"This is pdfTeX, Version" 
+"Declassified and Approved for Release by" filetype: pdf 
+"IBM Security AppScan Report" ext:pdf 
+intitle:"netsparker scan report" ext:pdf 
+"Email delivery powered by Google" ext:pdf OR ext:txt 
+ext:pdf intext:"Category: Password Management: Hardcoded Password" intext:"Issues)" 
+"Do not distribute" (ext:pdf | ext:doc | ext:docx | ext:rtf) 
+"SECRET//NOFORN" ext:pdf 
+"your default password is" filetype:pdf 
+"Web Application Assessment Report" ext:pdf 
+intext:"Web Application Report" intext:"This report was created by IBM Security AppScan" ext:pdf 
+filetype:pdf intitle:"SSL Report"
+inurl:http | -inurl:https inurl:ftp ext:pdf taxreturn 
+"google confidential" filetype:pdf 
+"automatic teller" "operator manual" "password" filetype:pdf 
+filetype:pdf "acunetix website audit" "alerts summary" 
+site:stashbox.org cv Or resume OR curriculum vitae filetype:pdf OR doc
+site:mediafire.com cv Or resume OR curriculum vitae filetype:pdf OR doc 
+site:dl.dropbox.com filetype:pdf cv OR curriculum vitae OR resume 
+"SnapGear Management Console" "Welcome to the SnapGear Unit!" -pdf 
+intitle:"Veo Observer XT" -inurl:shtml|pl|php|htm|asp|aspx|pdf|cfm -intext:observer
+intitle:"DVR Client" -the -free -pdf -downloads -blog -download -dvrtop
+inurl:docmgr | intitle:"DocMGR" "enter your Username and"|"und Passwort bitte"|"saisir votre nom"|"su nombre de usuario" -ext:pdf -inurl:"download.php 
+intitle:"Novell Web Services" "GroupWise" -inurl:"doc/11924" -filetype:pdf
+intitle:"netbotz appliance" -inurl:.php -inurl:.asp -inurl:.pdf -inurl:securitypipeline -announces
+intitle:iDVR -intitle:"com | net | shop" -inurl:"asp | htm | pdf | html | php | shtml | com | at | cgi | tv" 
+ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:"budget approved") inurl:confidential
+intitle:"Sipura.SPA.Configuration" -.pdf
+intext:"UAA (MSB)" Lexmark -ext:pdf
+"Certificate Practice Statement" inurl:(PDF | DOC)
+filetype:pdf "Assessment Report" nessus
+intitle:"Login" -com "/doc/page/login.asp"
+intitle:"index of "docker-compose.yml" 
+inurl: document/d intext: ssn
+inurl:/doc/page/login.asp? 
+intitle:"index of" *.doc 
+inurl:*org intitle:"index of" "docker-compose"
+intitle:"index of/documents" 
+intitle:"index of" "docker-compose" 
+"index of" :excel documents
+index of: "documents" "wp-content"
+intitle:"index of" "DOCS-TECH "
+intitle:"index of" "htdocs" 
+Index of /apidoc/api-web/target/classes/ 
+intitle:"index of" "docker-compose.yaml" 
+intext:"docs.google.com/forms/d/" 
+intext:cv OR intext:curriculum vitae AND intext:"SSN" ext:doc
+intitle:"index of" "/xampp/htdocs" | "C:/xampp/htdocs/"
+intitle:"index of /" +.htdocs 
+allintitle: sensitive ext:doc OR ext:xls OR ext:xlsx 
+intitle:"index of" "login.docx"
+intitle:"index of" "docker.yml"
+intitle:"index of" "docker-cloud.yml" 
+intitle:"index of" "htdocs.zip" 
+intext:{{szErrorTip}} inurl:/doc/page/login.asp 
+site:docs.google.com inurl:forms | viewanalytics intext:see previous responses
+"Index of" inurl:htdocs inurl:xampp 
+site:https://docs.google.com/spreadsheets edit 
+site:https://docs.google.com/spreadsheets responses 
+site:https://docs.google.com/forms viewanalytics 
+site:https://docs.google.com/forms responses
+site:https://docs.google.com/document/d/ password
+site:https://docs.google.com/spreadsheets/d/ password 
+intitle:"admin console" inurl:login -help -guide -documentation -release -notes -configure -support -price -cant 
+intitle:"index of" ".dockerignore" 
+intitle:"index of" inurl:documents backup 
+inurl:scanned & documents intitle:"index of" IT 
+inurl:"/irj/go/km/docs/" 
+intitle:"docker" intitle:"index of" config 
+intext:cv OR intext:curriculum vitae "passport details" ext:doc -template 
+allintitle:restricted filetype:doc
+filetype:doc intext:"default password is" 
+"var miner = new CoinHive" intext:document.domain
+intitle:"index of" docker-compose.yml 
+ext:txt | ext:conf | ext:inc | ext:doc intext:php class JConfig 
+index of /htdocs 
+inurl:"/ap/recuperadocumentossql.aspx" 
+intitle:"Login" inurl:"/doc/page/login.asp"
+https://paper.dropbox.com inurl:/doc/ 
+site:static.ow.ly/docs/ intext:@gmail.com | Password 
+"My Documents" "parent" intitle:index.of 
+intitle:Content Server Error IdcService=DOC_INFO 
+filetype:docx Domain Registrar $user $pass 
+Google Dork inurl:Curriculum Vitale filetype:doc ( Vital Informaticon , Addres, Telephone Numer, SSN , Full Name, Work , etc ) 
+site:docs.google.com intitle:(cv Or resume OR curriculum vitae) 
+inurl:dpage.php?docID 
+inurl:inc_documentlibrarymanager.asp 
+allinurl:"detResolucion.php?tipodoc_id=" 
+allinurl: "index.php?option=com_doc" 
+intext:"Powered by eDocStore" 
+inurl:inc_securedocumentlibrary.asp 
+intitle:"phpDocumentor web interface" 
+"Based on DoceboLMS 2.0" 
+intitle:"Docutek ERes - Admin Login" -edu 
+intitle:"Supero Doctor III" -inurl:supermicro 
+intitle:"curriculum vitae" filetype:doc 
+ext:dhtml intitle:"document centre|(home)" OR intitle:"xerox" 
+intitle:"Document title goes here" intitle:"used by web search tools" " example of a simple Home Page"
+filetype:ini Desktop.iniintext:mydocs.dll 
+intitle:"DocuShare" inurl:"docushare/dsweb/" -faq
+intitle:"Apache HTTP Server" intitle:"documentation"
+intitle:"index of" *.xls
+intitle:"Index of" *.xlsx 
+ext:xls intext:/etc/passwd | inurl:password
+site:*.blob.core.windows.net ext:xls | ext:xlsx (login | password | username) 
+inurl:user intitle:index of ext:sql | xls | xml | json | csv
+ext:xls intext:@gmail.com intext:password 
+inurl:admin intitle:index of ext:sql | xls | xml | json | csv 
+intitle:"index of" "passwords.xlsx" 
+intitle:"index of" "/users.xls" 
+"accounts.xlsx" ext:xlsx 
+filetype:xls | xlsx intext:software license 
+filetype:xls | xlsx intext:cisco -cisco.com 
+"username.xlsx" ext:xlsx
+"password.xlsx" ext:xlsx
+inurl:core.windows.net ext:xlsx 
+inurl:wp-content/uploads filetype:xls | filetype:xlsx password
+-inurl:http | -inurl:https inurl:ftp ext:xls | ext:xlsx bank 
+intext:http | https intext:login | logon intext:password | passcode filetype:xls | filetype:xlsx 
+intext:smtp | pop3 intext:login | logon intext:password | passcode filetype:xls | filetype:xlsx 
+inurl:"ftp" intext:"user" | "username" | "userID" | "user ID" | "logon" | "login" intext:"password" | "passcode" filetype:xls | filetype:xlsx 
+ext:xls intext:NAME intext:TEL intext:EMAIL intext:PASSWORD 
+inurl: mil|/issue.php filetype:xls 
+(intext:mail AND intext:samAccountName) AND (filetype:xlsx OR filetype:xls OR filetype:csv OR filetype:txt) 
+intext:5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 AND (ext:txt OR ext:csv OR ext:xls OR ext:lst) 
+("DMZ" | "Public IP" | "Private IP") filetype:xls
+inurl:admin intext:username= AND email= AND password= OR pass= filetype:xls 
+filetype:xls "username | password" 
+allintext:D.N.I filetype:xls 
+List of Phone Numbers (In XLS File ) allinurl:telefonos filetype:xls 
+inurl:ftp "password" filetype:xls 
+filetype:xls + password + inurl:.com 
+"login: *" "password= *" filetype:xls 
+filetype:xls inurl:"email.xls" 
+filetype:xls inurl:contact 
+filetype:xls username password email 
+intitle:index.of finances.xls 
+intitle:"Index of" finance.xls 
+intext:"index of" ".sql"
+site:com.* intitle:"index of" *.sql 
+intext:"SQL" && "DB" inurl:"/runtime/log/"
+intitle:"index of /" "sqlite.db" 
+intitle:"index of" "/mysql" 
+intitle:"index of" " mod_auth_mysql "
+inurl:admin ext:sql 
+intitle:"index of" "/backup/sql" 
+intitle:index.of conf.mysql
+intitle:"index of" "schema.mysql" 
+intitle:"index of" "mysql.yaml"
+intitle:"index of" "db.sqlite3" 
+intitle:"index of" "/sql" 
+inurl:/wp-content/uploads/ "phpMyAdmin SQL Dump" 
+inurl:phpmyadmin/sql.php?server=1 
+site:*/phpmyadmin/server_sql.php 
+"insert into users" "VALUES" ext:sql | ext:txt | ext:log | ext:env 
+"The SQL command completed successfully." ext:txt | ext:log 
+intext:construct('mysql:host 
+intitle:"index of" "dump.sql" 
+"putty.log" ext:log | ext:cfg | ext:txt | ext:sql | ext:env 
+ext:sql | ext:txt intext:"-- phpMyAdmin SQL Dump --" + intext:"admin" 
+jdbc:sqlserver://localhost:1433 + username + password ext:yml | ext:java 
+"'dsn: mysql:host=localhost;dbname=" ext:yml | ext:txt "password:" 
+ext:sql | ext:dbf | ext:mdb 
+"-- Dumping data for table `admin`" | "-- INSERT INTO `admin`" "VALUES" ext:sql | ext:txt | ext:log | ext:env 
+"-- Server version" "-- MySQL Administrator dump 1.4" ext:sql 
+"index of" "mysql.sh"
+inurl:/phpPgAdmin/browser.php intext:"Servers" | "PostgreSQL*" 
+intitle:"index of" "mysql.log" | "mysql.logs" 
+"-- Dumping data for table `users` | `people` | `member`" ext:sql | ext:txt | ext:log | ext:env 
+intitle:"index of" "phpmyadmin.sql" 
+"-- Dump completed" ext:sql | ext:txt | ext:log 
+site:ftp://ftp.*.* ext:sql
+intext:admin ext:sql inurl:admin 
+"Index of" "accounts.sql" 
+inurl:"id=*" & intext:"warning mysql_fetch_array()"
+intitle:"index of" "users.sql" 
+intitle:"index of" "admin/sql/" 
+"index of sqlite" 
+"phpMyAdmin MySQL-Dump" "INSERT INTO" -"the" 
+"index of" "user.sqlite"
+ext:sql intext:"-- phpMyAdmin SQL Dump 
+"index of" "/config/sql" 
+intitle:"Index of" "backup-audio-queue.log" OR "backup-audio.log" OR "backup-mysql.log" 
+intitle:"index of" "postgresql.conf" 
+intitle:"Index of" db_mysql.inc 
+intitle: "index of" "MySQL-Router" 
+inurl:"index.php?id=" intext:"Warning: mysql_num_rows()" 
+intitle:"index of" "mysql.properties" 
+intitle:"index of/" "db.sql" Files Containing Juicy Info Ishan
+ext:sql intext:@gmail.com intext:e10adc3949ba59abbe56e057f20f883e 
+intitle:"index of" "/etc/mysql/" 
+indexof:backup/mysql 
+intitle:"index of" "/mysql.log" 
+intitle:index.of.?.mysql 
+intitle:"index of" mysqli.ini 
+ext:sql intext:contrasena 
+ext:sql intext:clave 
+intitle:index.of./.sql 
+intitle:"index of" sql inurl:./db/ 
+intitle:index.of.?.sql 
+intext:user.sql intitle:index.of 
+intext:backup.sql intitle:index.of 
+intext:[To Parent Directory] & ext:sql | ext:cnf | ext:config | ext:log 
+ext:txt | ext:sql | ext:cnf | ext:config | ext:log & intext:"admin" | intext:"root" | intext:"administrator" & intext:"password" | intext:"root" | intext:"admin" |intext:"administrator" 
+intitle:index of /.sql.gz intext:/backup/ 
+inurl:"/phpsqlitecms/cms/index.php" 
+intext:"Powered by phpSQLiteCMS" | intitle:"phpSQLiteCMS - A simple & lightweight CMS" 
+intitle:"SQLiteManager" + intext:"Welcome to SQLiteManager version "
+intitle:"MyWebSQL" + "User ID: Password:" 
+site:trello.com intext:mysql AND intext:password -site:developers.trello.com -site:help.trello.com 
+Codeigniter filetype:sql intext:password | pwd intext:username | uname intext: Insert into users values 
+intitle:"index.of" "places.sqlite" "Mail" thunderbird -mozilla.org -scan 
+intitle:"index.of" "places.sqlite" "key3.db" -mozilla.org 
+CakePHP filetype:sql intext:password | pwd intext:username | uname intext: Insert into users values 
+filetype:sql intext:password | pass | passwd intext:username intext:INSERT INTO `users` 
+"-- Dumping data for table" ext:sql 
+filetype:tpl intext:mysql_connect 
+inurl:".php?id=" "You have an error in your SQL syntax" 
+intext:DB_PASSWORD || intext:"MySQL hostname" ext:txt 
+"-- MySQL Administrator dump" ext:sql 
+"mysqli_connect" ext:inc 
+"-- MySQL dump" ext:sql -git 
+filetype:bak inurl:php "mysql_connect" 
+inurl:"id=" & intext:"MySQL Error: 1064" & "Session halted." 
+inurl:index.php?id= intext:"mysql_fetch_array" 
+filetype:inc OR filetype:bak OR filetype:old mysql_connect OR mysql_pconnect 
+?intitle:index.of?".mysql_history" 
+filetype:old (mysql_connect) () 
+filetype:sql "MySQL dump" (pass|password|passwd|pwd) 
+filetype:ini "pdo_mysql" (pass|passwd|password|pwd) 
+"safe_mode: * PHP version: * cURL: * MySQL: * MSSQL: * PostgreSQL: * Oracle: *" 
+"Unable to jump to row" "on MySQL result index" "on line" Error Messages
+"Warning: mysql_connect(): Access denied for user: '*@*" "on line" -help -forum 
+inurl:"extras/update.php" intext:mysql.php -display 
+intitle:"phpinfo()" +"mysql.default_password" +"Zend Scripting Language Engine" 
+"#mysql dump" filetype:sql 21232f297a57a5a743894a0e4a801fc3 
+filetype:inc mysql_connect OR mysql_pconnect 
+"There are no Administrators Accounts" inurl:admin.php -mysql_fetch_row 
+"Warning: mysql_query()" "invalid query" 
+intitle:"index of" mysql.conf OR mysql_config 
+filetype:inc intext:mysql_connect 
+"#mysql dump" filetype:sql 
+"# phpMyAdmin MySQL-Dump" filetype:txt 
+"mySQL error with query" 
+"Supplied argument is not a valid MySQL result resource" 
+"# phpMyAdmin MySQL-Dump" "INSERT INTO" -"the" 
+"supplied argument is not a valid MySQL result resource"
+intitle:"Index of" .mysql_history 
+"Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL"
+"Supplied argument is not a valid PostgreSQL result" 
+"PostgreSQL query failed: ERROR: parser: parse error" 
+intitle:"HFS" AND intext:"httpfileserver 2.3" AND -intext:"remote" 
+inurl:adm/login.jsp.bak
+intitle:"TileServer GL - Server for vector and raster maps with GL styles" 
+intitle:"index of" "/views/auth/passwords" 
+intitle:"Icecast Streaming Media Server" "Icecast2 Status" -.com 
+inurl /editor/filemanager/connectors/uploadtest.html 
+intext:"user name" intext:"orion core" -solarwinds.com 
+inurl:RichWidgets/Popup_Upload.aspx 
+intitle:"Wing FTP Server - Web" 
+intext:"Powered By Gila CMS" 
+site: target.com ext:action | ext:struts | ext:do 
+intitle:"index of" "shell.php"
+intitle:"index of" "filemail.pl" 
+intitle:"index of" "AT-admin.cgi" 
+inurl:/+CSCOE+/logon.html 

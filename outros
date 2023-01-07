@@ -1,0 +1,199 @@
+intext:"(c) GUnet 2003-2007" 
+"Powered by Jira Service Desk" 
+"Powered by vBulletin Version 5.5.4" 
+inurl:"q=user/password" 
+inurl:"/user/register" "Powered by Drupal" -CAPTCHA -"Access denied" 
+inurl:"index.php?option=com_joomanager" 
+inurl:/proc/self/cwd 
+"dirLIST - PHP Directory Lister" "Banned files: php | php3 | php4 | php5 | htaccess | htpasswd | asp | aspx" "index of" ext:php Vulnerable Servers
+allintext:Copyright Smart PHP Poll. All Rights Reserved. -exploit
+allinurl:moadmin.php -google -github 
+inurl:/elfinder/elfinder.html+intitle:"elFinder 2.0"
+inurl:CHANGELOG.txt intext:drupal intext:"SA-CORE" -intext:7.32 -site:github.com -site:drupal.org
+inurl:robots.txt intext:CHANGELOG.txt intext:disallow ext:txt -site:github.com
+ext:cgi inurl:cgi-bin intext:#!/bin/bash 
+"OpenSSL" AND "1.0.1 Server at" OR "1.0.1a Server at" OR "1.0.1b Server at" OR "1.0.1c Server at" OR "1.0.1d Server at" OR "1.0.1e Server at" OR "1.0.1f Server at" 
+inurl:"/reports/rwservlet" intext:"Oracle"
+inurl:"struts" filetype:action 
+inurl:.php? intext:CHARACTER_SETS,COLLATIONS, ?intitle:phpmyadmin
+inurl:/wp-content/w3tc/dbcache/ 
+intext:SQL syntax & inurl:index.php?=id
+intitle:awen+intitle:asp.net
+intitle:"-N3t" filetype:php 
+inurl:.php intitle:- BOFF 1.0 intext:[ Sec. Info ] 
+filetype:php inurl:tiki-index.php +sirius +1.9.*
+filetype:php inanchor:c99 inurl:c99 intitle:c99shell -seeds -marijuana 
+inurl:php intitle:"Cpanel , FTP CraCkeR" 
+intitle:#k4raeL - sh3LL
+inurl:view.php?board1_sn= 
+intitle:m1n1 1.01
+intitle:Locus7shell intext:"Software:" 
+intitle:"[EasyPHP] - Administration"
+intitle:cyber anarchy shell 
+inurl:/vb/install/install.php 
+inurl:/vb/install/upgrade.php 
+"CGI-Telnet Unit-x Team Connected to *.com" OR "CGI-Telnet Unit-x Team Connected to" 
+"www.*.com - c99shell" OR "www.*.net - c99shell" OR "www.*.org - c99shell" 
+"r57shell 1.4" 
+"[ phpinfo ] [ php.ini ] [ cpu ] [ mem ] [ users ] [ tmp ] [ delete ]" 
+"r57shell" 
+intitle:"A Better ASP User Gallery" 
+"intitle:t3al shmeh" 
+: inurll ', -font => '{Verdana} 8 bold') ->pack ( -side => "top" , -anchor => 'e' ) ; 
+allinurl: op=viewslink&sid= 
+inurl:"read.php?datespan=" 
+http://www.google.com/search?q=inurl%3Aindex.php%3Fpagedb%3Drss
+intitle:"Uploader - Uploader v6" -pixloads.com 
+intitle:"MvBlog powered" 
+intitle:"Horde :: My Portal" -"[Tickets" 
+inurl:rpSys.html 
+filetype:pl intitle:"Ultraboard Setup" 
+"Welcome to Administration" "General" "Local Domains" "SMTP Authentication" inurl:admin 
+XOOPS Custom Installation 
+"you can now password" | "this is a special page only seen by you. your profile visitors" inurl:imchaos 
+"set up the administrator user" inurl:pivot 
+"html allowed" guestbook 
+"Powered by: vBulletin Version 1.1.5" 
+inurl:"/NSearch/AdminServlet"
+inurl:servlet/webacc 
+intitle:"Mail Server CMailServer Webmail" "5.2" 
+inurl:newsdesk.cgi? inurl:"t=" 
+(inurl:/shop.cgi/page=) | (inurl:/shop.pl/page=) 
+inurl:aol*/_do/rss_popup?blogID= 
+natterchat inurl:home.asp -site:natterchat.co.uk 
+intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*" 
+"ftp://" "www.eastgame.net" 
+intext:"Warning: * am able * write ** configuration file" "includes/configure.php" -Forums 
+allinurl:"index.php" "site=sglinks" 
+inurl:"index.php?module=ew_filemanager" 
+("Indexed.By"|"Monitored.By") hAcxFtpScan 
+filetype:cgi inurl:"Web_Store.cgi"
+filetype:cgi inurl:"fileman.cgi"
+"Welcome to the Prestige Web-Based Configurator"
+filetype:php inurl:vAuthenticate
+intitle:"Samba Web Administration Tool" intext:"Help Workgroup" 
+intitle:"Gateway Configuration Menu" 
+inurl:pls/admin_/gateway.htm 
+allinurl:install/install.php
+allinurl:intranet admin 
+"Welcome to PHP-Nuke" congratulations 
+inurl:footer.inc.php
+inurl:info.inc.php 
+"YaBB SE Dev Team" 
+intitle:"Gallery in Configuration mode"
+intitle:osCommerce inurl:admin intext:"redistributable under the GNU"intext:"Online Catalog" -demo -site:oscommerce.com 
+inurl:ManyServers.htm
+intitle:"Remote Desktop Web Connection" 
+"Welcome to Intranet" 
+inurl:search.php vbulletin
+intitle:"Terminal Services Web Connection"
+inurl:shop "Hassan Consulting's Shopping Cart Version 1.18" 
+site:vps-*.vps.ovh.net 
+inurl *:8080/login.php 
+site:*/*.asp Web Server 
+Fwd: intitle:"STEP by STIBO Systems" "Launch STEPworkbench" "Web UI Component Report" 
+inurl:"/app/kibana#" 
+"NTRIP Caster Table Contents" "This is a SNIP NTRIP Caster"
+intitle:"Shoutcast server" inurl:"/index.html" "SHOUTcast Server"
+intitle:"Welcome to OpenResty!" 
+intitle:"Success!" intext:"Your new web server is ready to use." 
+intitle:"index of" 
+intitle:"WATASHI SERVICE" 
+"Wowza Streaming Engine 4 Developer Edition" 
+intitle:"index of" "/homedir/etc/" 
+intitle:"index of" AND inurl:magento AND inurl:/dev 
+intitle:"Domain Default page" "Parallels IP Holdings GmbH" 
+intitle:"nPerfServer" 
+intitle:"STEP by STIBO Systems" "Launch STEPworkbench" "Web UI Component Report" 
+inurl: /ftp intitle:"office" 
+intitle:"web server login" intext:"site ip" 
+intitle:"Welcome" intext:"LiteSpeed Technologies, Inc. All Rights Reserved."
+intitle:"Index of" intext:"Server at"
+intitle:"Welcome to WildFly" intext:"Administration Console" 
+intitle:"Icecast Streaming Media Server" 
+intitle:"Test Page for the HTTP Server on Fedora" 
+intitle:"SOGo" site:webmail.* 
+intitle:"Server Backup Manager SE"
+intitle:"Current Network Status" "Nagios" 
+inurl:/Portal0000.htm 
+intitle:"Miniweb Start Page" | "/CSS/Miniweb.css"
+inurl:"/domcfg.nsf" " Web Server Configuration"
+intitle:"Accueil WAMPSERVER" intext:"Configuration Serveur"
+intitle:"GlassFish Server - Server Running" 
+inurl:/javax.faces.resource/ 
+inurl:CFIDE/adminapi
+inurl:/uploads/affwp-debug.log 
+inurl:?XDEBUG_SESSION_START=phpstorm 
+inurl:/config/device/wcd 
+inurl:"/phpmyadmin/user_password.php 
+intext:"SonarQube" + "by SonarSource SA." + "LGPL v3"
+inurl:/xprober ext:php 
+intext:"Healthy" + "Product model" + " Client IP" + "Ethernet" 
+inurl:/phpPgAdmin/browser.php 
+ext:php | intitle:phpinfo "published by the PHP Group" 
+allintext:"Index Of" "sftp-config.json" 
+inurl:_vti_bin/Authentication.asmx 
+"Powered by 123LogAnalyzer" 
+intitle:Snoop 
+allintitle:"Pi-hole Admin Console" 
+intitle:"Lists Web Service" 
+intitle:"Monsta ftp" intext:"Lock session to IP" 
+intitle:"Microsoft Internet Information Services 8" 
+intext:"index of /" "Index of" access_log 
+"index of /private" -site:net -site:com -site:org 
+inurl:":8088/cluster/apps" 
+intitle:"index of" "debug.log" OR "debug-log" 
+intext:"This is the default welcome page used to test the correct operation of the Apache2 server" 
+"Powered by phpBB" inurl:"index.php?s" OR inurl:"index.php?style" 
+intitle:"index of" "powered by apache " "port 80" 
+intitle:"Web Server's Default Page" intext:"hosting using Plesk" -www 
+site:ftp.*.com "Web File Manager" 
+intitle:"Welcome to JBoss" 
+intitle:"Welcome to nginx!" intext:"Welcome to nginx on Debian!" intext:"Thank you for" 
+intitle:"index of" "Served by Sun-ONE" 
+-pub -pool intitle:"index of" "Served by" "Web Server"
+intitle:"index of" "server at" 
+site:*/server-status intext:"Apache server status for" 
+inurl:/iisstart.htm intitle:"IIS7" 
+inurl:"WebPortal?bankid" 
+intitle:"IIS Windows Server" -inurl:"IIS Windows Server" 
+intitle:"Apache2 Ubuntu Default Page: It works" 
+inurl:/server-status + "Server MPM:" 
+inurl:phpinfo.php intext:build 2600 
+inurl:OrganizationChart.cc
+intext:"Brought to you by eVetSites" 
+intext:"Powered by GetSimple" -site:get-simple.info
+inurl:jsmol.php 
+intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version" 
+"Powered by BOINC" 
+"Proudly created with Wix.com" 
+intext:" - 2019 Cott Systems, Inc." 
+"I have been invoked by servletToJSP" 
+intitle:Test 
+"Powered by vShare"
+intext:"Powered by Abyss Web Server"
+intitle: "Welcome to nginx!" + "Thank you for using nginx."
+intitle:livezilla "Server Time" 
+intitle:"Sucuri WebSite Firewall - Access Denied" 
+"This server is operated by OpenX." 
+intext:"Powered by Typesetter"
+Coldbox | contentbox | commandbox "Powered by ContentBox" 
+intext:"Powered by Nesta" 
+intext:"Powered by (Quantum | Quantum CMS | CMS) 
+inurl:/_hcms/ 
+inurl:tests/mocks intext:autoloader 
+intitle:HTTP Server Test Page powered by CentOS 
+intitle:"apache tomcat/" "Apache Tomcat examples" 
+"RDServer Product information" | inurl:"/rdagent.jsp" 
+intitle:"apache tomcat/" + "Find additional important configuration information in:" 
+intitle:"Apache2 Debian Default Page: It works" 
+inurl:rvsindex.php & /rvsindex.php?/user/login 
+intitle:"miniProxy" 
+intitle:"Axis Happiness Page" "Examining webapp configuration" 
+inurl:"server-status" "Server Version: Apache/" "Server Built: " "Server uptime:" "Total accesses" "CPU Usage:"
+"Application Blocked!" "Google bot" 
+inurl:phpmyadmin/themes intext:"pmahomme" 
+inurl:readme.md intext:"Laravel" 
+intext:"Welcome to CodeIgniter!" 
+inurl:readme.rst intext:"CodeIgniter" 
+intitle:"Index of" "Apache/2.4.7 (Ubuntu) Server" 

@@ -1,0 +1,26 @@
+inurl:s3.amazonaws.com intitle:"AWS S3 Explorer" 
+intitle: index of "awstats" 
+intitle:"index of" aws/ 
+site:amazonaws.com inurl:elb.amazonaws.com 
+inurl:gitlab "AWS_SECRET_KEY" 
+intitle:index of "aws/credentials" 
+inurl:pastebin "AWS_ACCESS_KEY" 
+site:.execute-api.us-east-1.amazonaws.com 
+inurl:execute-api site:amazonaws.com 
+intitle:"index of" "aws-config.php" 
+intitle:index.of "awsconfig.json" 
+s3 site:amazonaws.com filetype:log 
+site:amazonaws.com inurl:login.php
+s3 site:amazonaws.com intext:dhcp filetype:txt inurl:apollo
+s3 site:amazonaws.com filetype:sql
+s3 site:amazonaws.com filetype:xls password
+s3 site:amazonaws.com filetype:xls login
+intitle:"index of" "/aws.s3/" 
+filetype:env intext:AWS_SECRET 
+allinurl:awstats.pl?config= 
+intitle: Index of /awstats/data 
+allinurl:awstats.pl ext:pl 
++intext:"AWSTATS DATA FILE" filetype:txt 
+"Designed and powered by AWS Sports" 
+"powered by jaws" | "powered by the jaws project" | inurl:?gadget=search
+yaws.*.server.at

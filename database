@@ -1,0 +1,58 @@
+intitle:"database" "backup" filetype:sql 
+Intitle:database ext:sql 
+intitle:"index of" "database.py" 
+site:*/phpmyadmin/server_databases.php 
+inurl:"web/database/selector"
+ext:xlsx inurl:database 
+"-- Dumped from database version" + "-- Dumped by pg_dump version" ext:txt | ext:sql | ext:env | ext:log 
+ext:yml | ext:txt | ext:env "Database Connection Information Database server =" 
+"index of" inurl:database ext:sql | xls | xml | json | csv 
+"-- Dumping data for table * " ext:sql | ext:xls intext:db | intext:database | intext:password | username 
+intitle:"database.php" inurl:"database.php" intext:"db_password" -git -gitlab
+"-- PostgreSQL database dump complete" ext:sql | ext:txt | ext:log | ext:env 
+Database:phpmyadmin intext:mysql ext:sql inurl:phpmyadmin 
+"/** MySQL database password */" ext:txt | ext:cfg | ext:env | ext:ini
+intext:"db_database" ext:env intext:"db_password"
+intitle:"Index of /" "joomla/database"
+intitle:"index of" "database/config"
+intitle:"index of" "database.json
+intitle:"index of" keepass.kdbx OR database.kdb
+intitle:"index of" "database.ini" OR "database.ini.old
+intitle:"index of" database.yml
+intitle:"kentico database setup"
+intitle:odoo inurl:login "powered by odoo" "manage databases"
+intitle:"index of" "databases.yml"
+intitle:index.of "database.db"
+inurl:/application/config/database.php
+inurl:/database* ext:sql intext:index of -site:github.com
+intitle:index.of.?.database
+inurl:login.htm "access
+"index of" "database.sql.zip"
+"index of" "database_log"
+"Index of" "database.sql"
+inurl:"databases.yml" ext:yml password -github
+CakePHP inurl:database.php intext:db_passwor
+intext:database inurl:"laravel.log" ext:lo
+"database_password" filetype:yml "config/parameters.ym
+"database_password" filetype:yml "config/parameters.yml"
+intext:"Index of /database"
+intext:VIEWS · Server: - Database: information_schema - Table: SCHEMA_PRIVILEGES · Browse · Structure · SQL · Search · Export
+intitle:"Index of" "WhatsApp Databases"
+filetype:sql "PostgreSQL database dump" (pass|password|passwd|pwd)
+inurl:config/databases.yml -trac -trunk -"Google Code" -source -repository
+"Scientific Image DataBase"
+"PKs Movie Database"
+"MidiCart PHP Database Management"
+intitle:"eXist Database Administration" -demo
+inurl:database.php | inurl:info_db.php ext:php "Database V2.*" "Burning Board *"
+inurl:"editor/list.asp" | inurl:"database_editor.asp" | inurl:"login.asa" "are set"
+ext:asa | ext:bak intext:uid intext:pwd -"uid..pwd" database | server | dsn
+ext:yml database inurl:config Files Containing Passwords
+ext:pqi pqi -database 
+"Phorum Admin" "Database Connection" inurl:forum inurl:admin 
+inurl:"/names.nsf?OpenDatabase" 
+inurl:"/database/comersus.mdb" 
+"Invision Power Board Database Error"
+inurl:names.nsf?opendatabase 
+"Select a database to view" intitle:"filemaker pro"
+"Welcome to phpMyAdmin" " Create new database" 
